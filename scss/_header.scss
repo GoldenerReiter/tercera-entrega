@@ -15,13 +15,27 @@ header {
           text-decoration: none;
           font-size: 30px;
           color: keys.$base-colour;
+          @media screen and (max-width: 600px) {
+            font-size: 13px;
+          }
         }
         a:hover {
           font-size: 31px;
+          @media screen and (max-width: 600px) {
+            font-size: 14px;
+          }
         }
         a:visited {
           color: keys.$base-colour-soft;
         }
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    margin: 0%;
+    .header-container {
+      .header {
+        @include mixins.secondary-box(grid, 2fr 1fr 1fr 1fr 1fr);
       }
     }
   }

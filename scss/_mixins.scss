@@ -7,8 +7,3 @@
   display: $display;
   grid-template-columns: $gt-columns;
 }
-
-@mixin grid-column-row-start-end($grid-column, $grid-row) {
-  grid-column: $grid-column;
-  grid-row: $grid-row;
-}
