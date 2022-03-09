@@ -1,9 +1,14 @@
-@mixin fundamental-box($display, $gt-columns, $gt-rows) {
+@mixin fundamental-box($display, $gt-columns, $gt-auto-rows) {
   display: $display;
   grid-template-columns: $gt-columns;
-  grid-template-rows: $gt-rows;
+  grid-auto-rows: $gt-auto-rows;
 }
 @mixin secondary-box($display, $gt-columns) {
   display: $display;
   grid-template-columns: $gt-columns;
+}
+
+@mixin grid-column-row-start-end($grid-column, $grid-row) {
+  grid-column: $grid-column;
+  grid-row: $grid-row;
 }

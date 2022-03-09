@@ -1,7 +1,8 @@
 @use "header";
+@use "index";
 @use "keys";
-@use "extends";
 @use "mixins";
+@use "extends";
 
 * {
   margin: 0%;
@@ -15,4 +16,6 @@ li {
 
 body {
   background-color: keys.$base-colour;
+  display: flex;
+  justify-content: center;
 }
