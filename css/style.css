@@ -1,7 +1,40 @@
+header {
+  position: fixed;
+  width: 100%;
+  margin-top: 2%;
+}
+header .header-container {
+  background-color: #ffa900;
+}
+header .header-container .header {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+  padding: 1%;
+}
+header .header-container .header .header-item a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #52006a;
+}
+header .header-container .header .header-item a:hover {
+  font-size: 31px;
+}
+header .header-container .header .header-item a:visited {
+  color: #734880;
+}
+
 * {
   margin: 0%;
   padding: 0%;
   font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #52006a;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+@use "keys";
+@use "mixins";
+
+header {
+  position: fixed;
+  width: 100%;
+  margin-top: 2%;
+  .header-container {
+    background-color: keys.$fourth-colour;
+    .header {
+      @include mixins.secondary-box(grid, 5fr 1fr 1fr 1fr 1fr);
+      padding: 1%;
+      .header-item {
+        a {
+          text-decoration: none;
+          font-size: 30px;
+          color: keys.$base-colour;
+        }
+        a:hover {
+          font-size: 31px;
+        }
+        a:visited {
+          color: keys.$base-colour-soft;
+        }
+      }
+    }
+  }
+}
