@@ -1,0 +1,11 @@
+@use "keys";
+
+footer {
+  display: flex;
+  justify-content: right;
+  background-color: keys.$base-colour-soft;
+  width: 100%;
+  p {
+    color: keys.$third-colour;
+  }
+}

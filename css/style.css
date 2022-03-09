@@ -80,9 +80,6 @@ header .header-container .header .header-item a:visited {
 }
 
 @media screen and (max-width: 1493px) {
-  .article1-container {
-    margin: 10% 2% 2% 8%;
-  }
   .article1-container .article1 {
     display: flex;
     align-content: center;
@@ -116,6 +113,33 @@ header .header-container .header .header-item a:visited {
   font-size: 24px;
   color: #ffba93;
 }
+
+@media screen and (max-width: 1493px) {
+  .article2-container .article2 {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+  }
+  .article2-container .article2 .art2-item {
+    display: flex;
+  }
+  .article2-container .article2 .art2-item h2 {
+    font-size: 40px;
+  }
+  .article2-container .article2 .art2-item p {
+    font-size: 20px;
+  }
+}
+footer {
+  display: flex;
+  justify-content: right;
+  background-color: #734880;
+  width: 100%;
+}
+footer p {
+  color: #ffba93;
+}
+
 * {
   margin: 0%;
   padding: 0%;

@@ -42,7 +42,6 @@
 }
 @media screen and (max-width: 1493px) {
   .article1-container {
-    margin: 10% 2% 2% 8%;
     .article1 {
       display: flex;
       align-content: center;
@@ -80,9 +79,23 @@
         color: keys.$third-colour;
       }
     }
-    .art2-i1 {
-    }
-    .art2-i2 {
+  }
+}
+@media screen and (max-width: 1493px) {
+  .article2-container {
+    .article2 {
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+      .art2-item {
+        display: flex;
+        h2 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
     }
   }
 }
