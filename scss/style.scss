@@ -17,5 +17,6 @@ li {
 body {
   background-color: keys.$base-colour;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

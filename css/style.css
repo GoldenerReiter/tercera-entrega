@@ -1,5 +1,4 @@
 header {
-  position: fixed;
   width: 100%;
   margin-top: 2%;
 }
@@ -33,9 +32,6 @@ header .header-container .header .header-item a:visited {
   color: #734880;
 }
 @media screen and (max-width: 1070px) {
-  header {
-    margin: 0%;
-  }
   header .header-container .header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -45,7 +41,7 @@ header .header-container .header .header-item a:visited {
 .article1-container {
   background-color: #734880;
   border-radius: 25px;
-  margin: 7% 3% 3% 3%;
+  margin: 2% 0%;
   padding: 3%;
   width: 80%;
 }
@@ -85,7 +81,7 @@ header .header-container .header .header-item a:visited {
 
 @media screen and (max-width: 1493px) {
   .article1-container {
-    margin: 10% 0% 0% 0%;
+    margin: 10% 2% 2% 8%;
   }
   .article1-container .article1 {
     display: flex;
@@ -105,6 +101,21 @@ header .header-container .header .header-item a:visited {
     font-size: 20px;
   }
 }
+.article2-container {
+  background-color: #734880;
+  border-radius: 25px;
+  margin-bottom: 2%;
+  padding: 3%;
+  width: 80%;
+}
+.article2-container .article2 .art2-item h2 {
+  font-size: 85px;
+  color: #9f5f80;
+}
+.article2-container .article2 .art2-item p {
+  font-size: 24px;
+  color: #ffba93;
+}
 * {
   margin: 0%;
   padding: 0%;
@@ -118,7 +129,8 @@ li {
 body {
   background-color: #52006a;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

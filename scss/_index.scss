@@ -5,7 +5,7 @@
 .article1-container {
   background-color: keys.$base-colour-soft;
   border-radius: 25px;
-  margin: 7% 3% 3% 3%;
+  margin: 2% 0%;
   padding: 3%;
   width: 80%;
   .article1 {
@@ -42,7 +42,7 @@
 }
 @media screen and (max-width: 1493px) {
   .article1-container {
-    margin: 10% 0% 0% 0%;
+    margin: 10% 2% 2% 8%;
     .article1 {
       display: flex;
       align-content: center;
@@ -59,6 +59,30 @@
           font-size: 20px;
         }
       }
+    }
+  }
+}
+
+.article2-container {
+  background-color: keys.$base-colour-soft;
+  border-radius: 25px;
+  margin-bottom: 2%;
+  padding: 3%;
+  width: 80%;
+  .article2 {
+    .art2-item {
+      h2 {
+        font-size: 85px;
+        color: keys.$second-colour;
+      }
+      p {
+        font-size: 24px;
+        color: keys.$third-colour;
+      }
+    }
+    .art2-i1 {
+    }
+    .art2-i2 {
     }
   }
 }

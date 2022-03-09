@@ -2,7 +2,6 @@
 @use "mixins";
 
 header {
-  position: fixed;
   width: 100%;
   margin-top: 2%;
   .header-container {
@@ -32,7 +31,6 @@ header {
     }
   }
   @media screen and (max-width: 1070px) {
-    margin: 0%;
     .header-container {
       .header {
         @include mixins.secondary-box(grid, 1fr 1fr 1fr 1fr 1fr);
