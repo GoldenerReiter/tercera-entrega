@@ -7,7 +7,7 @@ header {
   .header-container {
     background-color: keys.$fourth-colour;
     .header {
-      @include mixins.secondary-box(grid, 5fr 1fr 1fr 1fr 1fr);
+      @include mixins.secondary-box(grid, 5fr 1fr 1fr);
       padding: 1%;
       .header-item {
         a {
@@ -33,7 +33,7 @@ header {
   @media screen and (max-width: 1070px) {
     .header-container {
       .header {
-        @include mixins.secondary-box(grid, 1fr 1fr 1fr 1fr 1fr);
+        @include mixins.secondary-box(grid, 2fr 1fr 1fr);
       }
     }
   }

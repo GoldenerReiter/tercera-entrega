@@ -7,7 +7,7 @@ header .header-container {
 }
 header .header-container .header {
   display: grid;
-  grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 5fr 1fr 1fr;
   padding: 1%;
 }
 header .header-container .header .header-item a {
@@ -34,7 +34,7 @@ header .header-container .header .header-item a:visited {
 @media screen and (max-width: 1070px) {
   header .header-container .header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
   }
 }
 
