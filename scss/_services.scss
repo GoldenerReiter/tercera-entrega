@@ -34,12 +34,35 @@
       }
     }
   }
+  .service2-container {
+    @extend %article-rule;
+    margin: 0% 2% 2% 2%;
+    .service2 {
+      @include mixins.fundamental-box(grid, 700px auto, repeat(3 auto));
+      .service2-item {
+        h2 {
+          font-size: 55px;
+          color: keys.$second-colour;
+          margin: 1%;
+        }
+        p {
+          font-size: 30px;
+          color: keys.$third-colour;
+          margin: 1%;
+        }
+        img {
+          @extend %img-rule;
+        }
+      }
+      .serv2-i1 {
+        margin: 7% 2% 1% 1%;
+      }
+    }
+  }
   @media screen and (max-width: 1493px) {
     .service1-container {
       .service1 {
-        display: flex;
-        align-content: center;
-        flex-direction: column;
+        @include mixins.corpus-rule(flex, column, center);
         .service1-item {
           display: flex;
           img {
@@ -56,6 +79,23 @@
       .serv1-i2 {
         display: flex;
         flex-direction: column;
+      }
+    }
+    .service2-container {
+      .service2 {
+        @include mixins.corpus-rule(flex, column, center);
+        .service2-item {
+          display: flex;
+          h2 {
+            font-size: 40px;
+          }
+          p {
+            font-size: 20px;
+          }
+          img {
+            width: 100%;
+          }
+        }
       }
     }
   }

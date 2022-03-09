@@ -45,14 +45,14 @@ header .header-container .header .header-item a:visited {
   align-items: center;
 }
 
-.corpus2 .service1-container, .corpus1 .article1-container {
+.corpus2 .service1-container, .corpus2 .service2-container, .corpus1 .article1-container {
   background-color: #734880;
   border-radius: 25px;
   padding: 3%;
   width: 80%;
 }
 
-.corpus2 .service1-container .service1 .service1-item img {
+.corpus2 .service1-container .service1 .service1-item img, .corpus2 .service2-container .service2 .service2-item img {
   width: 700px;
   margin-top: 1%;
 }
@@ -111,8 +111,8 @@ header .header-container .header .header-item a:visited {
 @media screen and (max-width: 1493px) {
   .corpus1 .article1-container .article1 {
     display: flex;
-    align-content: center;
     flex-direction: column;
+    align-items: center;
   }
   .corpus1 .article1-container .article1 .art1-item {
     display: flex;
@@ -128,8 +128,8 @@ header .header-container .header .header-item a:visited {
   }
   .corpus1 .article2-container .article2 {
     display: flex;
-    align-content: center;
     flex-direction: column;
+    align-items: center;
   }
   .corpus1 .article2-container .article2 .art2-item {
     display: flex;
@@ -170,11 +170,32 @@ header .header-container .header .header-item a:visited {
   grid-column: 2/4;
   margin-top: 5%;
 }
+.corpus2 .service2-container {
+  margin: 0% 2% 2% 2%;
+}
+.corpus2 .service2-container .service2 {
+  display: grid;
+  grid-template-columns: 700px auto;
+  grid-template-rows: repeat(3 auto);
+}
+.corpus2 .service2-container .service2 .service2-item h2 {
+  font-size: 55px;
+  color: #9f5f80;
+  margin: 1%;
+}
+.corpus2 .service2-container .service2 .service2-item p {
+  font-size: 30px;
+  color: #ffba93;
+  margin: 1%;
+}
+.corpus2 .service2-container .service2 .serv2-i1 {
+  margin: 7% 2% 1% 1%;
+}
 @media screen and (max-width: 1493px) {
   .corpus2 .service1-container .service1 {
     display: flex;
-    align-content: center;
     flex-direction: column;
+    align-items: center;
   }
   .corpus2 .service1-container .service1 .service1-item {
     display: flex;
@@ -191,6 +212,23 @@ header .header-container .header .header-item a:visited {
   .corpus2 .service1-container .serv1-i2 {
     display: flex;
     flex-direction: column;
+  }
+  .corpus2 .service2-container .service2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .corpus2 .service2-container .service2 .service2-item {
+    display: flex;
+  }
+  .corpus2 .service2-container .service2 .service2-item h2 {
+    font-size: 40px;
+  }
+  .corpus2 .service2-container .service2 .service2-item p {
+    font-size: 20px;
+  }
+  .corpus2 .service2-container .service2 .service2-item img {
+    width: 100%;
   }
 }
 

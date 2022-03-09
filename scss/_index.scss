@@ -61,9 +61,7 @@
   @media screen and (max-width: 1493px) {
     .article1-container {
       .article1 {
-        display: flex;
-        align-content: center;
-        flex-direction: column;
+        @include mixins.corpus-rule(flex, column, center);
         .art1-item {
           display: flex;
           img {
@@ -80,9 +78,7 @@
     }
     .article2-container {
       .article2 {
-        display: flex;
-        align-content: center;
-        flex-direction: column;
+        @include mixins.corpus-rule(flex, column, center);
         .art2-item {
           display: flex;
           h2 {
