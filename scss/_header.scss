@@ -39,4 +39,12 @@ header {
       }
     }
   }
+  @media screen and (max-width: 1070px) {
+    margin: 0%;
+    .header-container {
+      .header {
+        @include mixins.secondary-box(grid, 1fr 1fr 1fr 1fr 1fr);
+      }
+    }
+  }
 }

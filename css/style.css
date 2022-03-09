@@ -41,6 +41,15 @@ header .header-container .header .header-item a:visited {
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   }
 }
+@media screen and (max-width: 1070px) {
+  header {
+    margin: 0%;
+  }
+  header .header-container .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
 
 .article1-container {
   background-color: #734880;
@@ -83,7 +92,7 @@ header .header-container .header .header-item a:visited {
   margin-top: 1%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1493px) {
   .article1-container {
     margin: 10% 0% 0% 0%;
   }
