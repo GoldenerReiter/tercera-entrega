@@ -39,22 +39,31 @@ header .header-container .header .header-item a:visited {
   }
 }
 
-.corpus1 {
+.corpus2, .corpus1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.corpus1 .article1-container {
+
+.corpus2 .service1-container, .corpus1 .article1-container {
   background-color: #734880;
   border-radius: 25px;
-  margin: 5% 2% 2% 2%;
   padding: 3%;
   width: 80%;
+}
+
+.corpus2 .service1-container .service1 .service1-item img {
+  width: 700px;
+  margin-top: 1%;
+}
+
+.corpus1 .article1-container {
+  margin: 5% 2% 2% 2%;
 }
 .corpus1 .article1-container .article1 {
   display: grid;
   grid-template-columns: 700px auto;
-  grid-auto-rows: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
   display: grid;
 }
 .corpus1 .article1-container .article1 .art1-item {
@@ -133,6 +142,35 @@ header .header-container .header .header-item a:visited {
   .corpus1 .article2-container .article2 .art2-item p {
     font-size: 20px;
   }
+}
+
+.corpus2 .service1-container {
+  margin: 5% 2% 2% 2%;
+}
+.corpus2 .service1-container .service1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+}
+.corpus2 .service1-container .service1 .service1-item {
+  align-items: center;
+}
+.corpus2 .service1-container .service1 .service1-item h1 {
+  font-size: 55px;
+  color: #9f5f80;
+  margin: 1%;
+}
+.corpus2 .service1-container .service1 .service1-item p {
+  font-size: 30px;
+  color: #ffba93;
+  margin: 1%;
+}
+.corpus2 .service1-container .service1 .serv1-i1 {
+  grid-column: 1/2;
+}
+.corpus2 .service1-container .service1 .serv1-i2 {
+  grid-column: 2/4;
+  margin-top: 5%;
 }
 
 footer {

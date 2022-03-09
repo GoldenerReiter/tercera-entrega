@@ -1,9 +1,14 @@
-@mixin fundamental-box($display, $gt-columns, $gt-auto-rows) {
+@mixin fundamental-box($display, $gt-columns, $gt-template-rows) {
   display: $display;
   grid-template-columns: $gt-columns;
-  grid-auto-rows: $gt-auto-rows;
+  grid-template-rows: $gt-template-rows;
 }
 @mixin secondary-box($display, $gt-columns) {
   display: $display;
   grid-template-columns: $gt-columns;
+}
+@mixin corpus-rule($display, $flex-direction, $align-items) {
+  display: $display;
+  flex-direction: $flex-direction;
+  align-items: $align-items;
 }

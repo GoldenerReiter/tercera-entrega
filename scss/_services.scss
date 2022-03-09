@@ -1,0 +1,37 @@
+@use "keys";
+@use "extends";
+@use "mixins";
+
+.corpus2 {
+  @extend %corpus-rule;
+  .service1-container {
+    @extend %article-rule;
+    margin: 5% 2% 2% 2%;
+    .service1 {
+      @include mixins.fundamental-box(grid, 1fr 1fr, repeat(3, auto));
+      .service1-item {
+        align-items: center;
+        img {
+          @extend %img-rule;
+        }
+        h1 {
+          font-size: 55px;
+          color: keys.$second-colour;
+          margin: 1%;
+        }
+        p {
+          font-size: 30px;
+          color: keys.$third-colour;
+          margin: 1%;
+        }
+      }
+      .serv1-i1 {
+        grid-column: 1 / 2;
+      }
+      .serv1-i2 {
+        grid-column: 2 / 4;
+        margin-top: 5%;
+      }
+    }
+  }
+}

@@ -3,15 +3,10 @@
 @use "extends";
 
 .corpus1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @extend %corpus-rule;
   .article1-container {
-    background-color: keys.$base-colour-soft;
-    border-radius: 25px;
+    @extend %article-rule;
     margin: 5% 2% 2% 2%;
-    padding: 3%;
-    width: 80%;
     .article1 {
       @include mixins.fundamental-box(grid, 700px auto, repeat(3, auto));
       display: grid;
