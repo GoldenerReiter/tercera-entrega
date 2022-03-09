@@ -32,15 +32,6 @@ header .header-container .header .header-item a:hover {
 header .header-container .header .header-item a:visited {
   color: #734880;
 }
-@media screen and (max-width: 600px) {
-  header {
-    margin: 0%;
-  }
-  header .header-container .header {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-  }
-}
 @media screen and (max-width: 1070px) {
   header {
     margin: 0%;
