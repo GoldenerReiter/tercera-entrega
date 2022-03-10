@@ -51,7 +51,8 @@
           margin: 1%;
         }
         img {
-          @extend %img-rule;
+          margin-top: 1%;
+          width: 100%;
         }
       }
       .serv2-i1 {

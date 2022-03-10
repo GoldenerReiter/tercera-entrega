@@ -52,7 +52,7 @@ header .header-container .header .header-item a:visited {
   width: 80%;
 }
 
-.corpus2 .service1-container .service1 .service1-item img, .corpus2 .service2-container .service2 .service2-item img {
+.corpus2 .service1-container .service1 .service1-item img {
   width: 700px;
   margin-top: 1%;
 }
@@ -187,6 +187,10 @@ header .header-container .header .header-item a:visited {
   font-size: 30px;
   color: #ffba93;
   margin: 1%;
+}
+.corpus2 .service2-container .service2 .service2-item img {
+  margin-top: 1%;
+  width: 100%;
 }
 .corpus2 .service2-container .service2 .serv2-i1 {
   margin: 7% 2% 1% 1%;
