@@ -38,4 +38,23 @@
       }
     }
   }
+  @media screen and (max-width: 1493px) {
+    .article3-container {
+      .article3 {
+        @include mixins.corpus-rule(flex, column, center);
+        .art3-item {
+          display: flex;
+          img {
+            width: 100%;
+          }
+          h1 {
+            font-size: 40px;
+          }
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
 }
