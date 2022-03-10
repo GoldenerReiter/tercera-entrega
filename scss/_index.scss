@@ -9,7 +9,6 @@
     margin: 5% 2% 2% 2%;
     .article1 {
       @include mixins.fundamental-box(grid, 700px auto, repeat(3, auto));
-      display: grid;
       .art1-item {
         display: grid;
         align-items: center;
