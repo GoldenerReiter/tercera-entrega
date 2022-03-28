@@ -8,7 +8,7 @@ header .header-container {
 }
 header .header-container .header {
   display: grid;
-  grid-template-columns: 5fr 1fr 1fr;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
   padding: 1%;
 }
 header .header-container .header .header-item a {
@@ -21,31 +21,23 @@ header .header-container .header .header-item a {
     font-size: 13px;
   }
 }
-header .header-container .header .header-item a:hover {
-  font-size: 31px;
-}
-@media screen and (max-width: 600px) {
-  header .header-container .header .header-item a:hover {
-    font-size: 14px;
-  }
-}
 header .header-container .header .header-item a:visited {
   color: #734880;
 }
 @media screen and (max-width: 1070px) {
   header .header-container .header {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
   }
 }
 
-.corpus3, .corpus2, .corpus1 {
+.corpus4, .corpus5, .corpus3, .corpus2, .corpus1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.corpus3 .article3-container, .corpus2 .service1-container, .corpus2 .service2-container, .corpus1 .article1-container {
+.corpus4 .article4-container, .corpus5 .article5-container, .corpus3 .article3-container, .corpus2 .service1-container, .corpus2 .service2-container, .corpus1 .article1-container {
   background-color: #734880;
   border-radius: 25px;
   padding: 3%;
@@ -111,7 +103,7 @@ header .header-container .header .header-item a:visited {
   .corpus1 .article1-container .article1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   .corpus1 .article1-container .article1 .art1-item {
     display: flex;
@@ -128,7 +120,7 @@ header .header-container .header .header-item a:visited {
   .corpus1 .article2-container .article2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   .corpus1 .article2-container .article2 .art2-item {
     display: flex;
@@ -198,7 +190,7 @@ header .header-container .header .header-item a:visited {
   .corpus2 .service1-container .service1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   .corpus2 .service1-container .service1 .service1-item {
     display: flex;
@@ -219,7 +211,7 @@ header .header-container .header .header-item a:visited {
   .corpus2 .service2-container .service2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   .corpus2 .service2-container .service2 .service2-item {
     display: flex;
@@ -274,7 +266,7 @@ header .header-container .header .header-item a:visited {
   .corpus3 .article3-container .article3 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   .corpus3 .article3-container .article3 .art3-item {
     display: flex;
@@ -287,6 +279,80 @@ header .header-container .header .header-item a:visited {
   }
   .corpus3 .article3-container .article3 .art3-item p {
     font-size: 20px;
+  }
+}
+
+.corpus4 .article4-container {
+  margin: 5% 2% 2% 2%;
+}
+.corpus4 .article4-container .article4 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+}
+.corpus4 .article4-container .article4 .art4-item {
+  display: grid;
+  justify-items: center;
+}
+.corpus4 .article4-container .article4 .art4-item h1 {
+  font-size: 85px;
+  color: #9f5f80;
+  margin: 1% 1% 1% 3%;
+}
+.corpus4 .article4-container .article4 .art4-item p {
+  font-size: 24px;
+  color: #ffba93;
+}
+.corpus4 .article4-container .article4 .art4-item img {
+  width: 1000px;
+  margin-top: 1%;
+}
+@media screen and (max-width: 1493px) {
+  .corpus4 .article4-container {
+    margin-top: 15%;
+  }
+  .corpus4 .article4-container .article4 .art4-item h1 {
+    font-size: 40px;
+  }
+  .corpus4 .article4-container .article4 .art4-item p {
+    font-size: 16px;
+  }
+  .corpus4 .article4-container .article4 .art4-item img {
+    width: 100%;
+  }
+}
+
+.corpus5 .article5-container {
+  margin: 0% 2% 2% 2%;
+}
+.corpus5 .article5-container .article5 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.corpus5 .article5-container .article5 .form1-container {
+  max-width: 30%;
+}
+.corpus5 .article5-container .article5 .form1-container label {
+  font-size: 24px;
+  color: #ffba93;
+}
+.corpus5 .article5-container .article5 .form1-container input {
+  width: 100%;
+  border: 2px solid #9f5f80;
+  border-radius: 4px;
+}
+.corpus5 .article5-container .article5 .art5-item {
+  display: flex;
+}
+.corpus5 .article5-container .article5 .art5-item h2 {
+  margin-left: 5%;
+  font-size: 55px;
+  color: #ffba93;
+}
+@media screen and (max-width: 1493px) {
+  .corpus5 .article5-container .article5 .art5-item h2 {
+    font-size: 33px;
   }
 }
 
