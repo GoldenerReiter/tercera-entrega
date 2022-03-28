@@ -228,7 +228,7 @@ header .header-container .header .header-item a:visited {
 }
 
 .corpus3 .article3-container {
-  margin: 5% 2% 2% 2%;
+  margin: 5% 2% 5% 2%;
 }
 .corpus3 .article3-container .article3 {
   display: grid;
@@ -348,7 +348,7 @@ header .header-container .header .header-item a:visited {
 .corpus5 .article5-container .article5 .art5-item h2 {
   margin-left: 5%;
   font-size: 55px;
-  color: #ffba93;
+  color: #9f5f80;
 }
 @media screen and (max-width: 1493px) {
   .corpus5 .article5-container .article5 .art5-item h2 {
@@ -378,6 +378,10 @@ li {
 
 body {
   background-color: #52006a;
+}
+
+.disclaimer {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

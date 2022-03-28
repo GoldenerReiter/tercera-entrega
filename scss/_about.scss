@@ -6,7 +6,7 @@
   @extend %corpus-rule;
   .article3-container {
     @extend %article-rule;
-    margin: 5% 2% 2% 2%;
+    margin: 5% 2% 5% 2%;
     .article3 {
       @include mixins.fundamental-box(grid, auto auto, auto auto);
       .art3-item {
