@@ -308,9 +308,6 @@ header .header-container .header .header-item a:visited {
   margin-top: 1%;
 }
 @media screen and (max-width: 1493px) {
-  .corpus4 .article4-container {
-    margin-top: 15%;
-  }
   .corpus4 .article4-container .article4 .art4-item h1 {
     font-size: 40px;
   }
